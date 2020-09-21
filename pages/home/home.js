@@ -12,6 +12,11 @@ Page({
       url: '/pages/barcode/barcode',
     })
   },
+  toOneCodePage:function() {
+    wx.navigateTo({
+      url: '/pages/oneCode/oneCode',
+    })
+  },
   toCertificatePage: function () {
      wx.navigateTo({
        url: '/pages/certificate/cartificate',

@@ -4,7 +4,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/barcode/barcode",
-    "pages/certificatie/cartificate"
+    "pages/oneCode/oneCode"
   ],
   "window": {
     "backgroundTextStyle": "light",

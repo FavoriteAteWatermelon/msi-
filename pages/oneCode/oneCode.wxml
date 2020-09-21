@@ -1,0 +1,10 @@
+<!--pages/oneCode/oneCode.wxml-->
+<view class="container">
+   <canvas class="canvas-code" canvas-id="canvas" style="background:#fff;width: 300px;height: 120px;"/>
+   <form bindsubmit='generate' style="margin-top:20px">
+        <input type='text'  placeholder="請輸入內容" class="inputContent" name='content' ></input>
+       <button form-type='submit' class="barcode">生成條形碼</button>
+    </form>
+    <view class="modal-button" style="margin-top:20px">
+      <button bindtap='savePic' class="barcode">保存到手機</button>  </view>
+  </view>
