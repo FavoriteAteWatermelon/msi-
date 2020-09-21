@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view class="logo-con"> <image class="logo" src="/images/2.jpg"></image></view>
+  <button bindtap="toCertificatePage" class="certificate">證件照製作</button>
+  <button bindtap="toBarcodePage" class="barcode">二維碼</button>
+  <button bindtap="toOneCodePage" class="barcode">條形碼</button>
+</view>
